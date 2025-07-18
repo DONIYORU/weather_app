@@ -8,7 +8,7 @@ import 'screens/home_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await dotenv.load(fileName: ".env"); // Загружаем .env файл
+  await dotenv.load(fileName: ".env");
   runApp(const MyApp());
 }
 
